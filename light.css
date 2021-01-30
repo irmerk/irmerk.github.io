@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css?family=Cairo|Montserrat+Alternates');
+
+body {
+  /* font-family: 'Source Sans Pro', 'Trebuchet MS', 'Lucida Grande',
+      'Bitstream Vera Sans', 'Helvetica Neue', sans-serif; */
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-display: swap;
+  margin: 0;
+  text-align: center;
+  color: #293c4b;
+  transition: background 0.25s;
+}
+
+/* Title - Name */
+h1 {
+  font-size: 42px;
+  max-width: 400px;
+  margin: 20px auto;
+}
+
+/* General text */
+p {
+  font-size: 1.2rem;
+  font-family: 'Cairo', sans-serif;
+  font-display: swap;
+  max-width: 700px;
+  margin: 10px auto;
+}
+
+/* link hover transition activity */
+a,
+i {
+  color: #293c4b;
+  font-weight: 400;
+  text-decoration: none;
+
+  /*for fade effect on hover*/
+  -o-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+/* Specify links */
+a:link {
+  font-size: 1.5rem;
+  color: #293c4b;
+}
+
+/* Specify visited links */
+a:visited {
+  color: #293c4b;
+}
+
+/* Specify hovered links */
+a:hover {
+  color: #576ce0;
+  transition: 0.15s;
+}
+
+/* Specify active links */
+a:active {
+  color: #0076d1;
+}
+
+/* Enlarge social icons */
+i {
+  padding: 5px;
+}
+
+#page {
+  margin-top: 100px;
+}
+
+/* Headshot image */
+#headshot {
+  max-width: 200px;
+  vertical-align: middle;
+}
+
+/* Links within general text */
+.headerLink {
+  font-size: 1.2rem !important;
+}
+
+/* Social link icon wrapper */
+#socialLink {
+  margin: 20px auto;
+}
+
+/* All child social links */
+#socialLink > * {
+  margin: 8px;
+}
+
+/* Specify social icon hover color */
+.fa-linkedin-in:hover {
+  color: #0976b4;
+}
+.fa-twitter:hover {
+  color: #55acee;
+}
+.fa-envelope-square:hover {
+  color: #d44638;
+}
+.fa-dev:hover {
+  color: #7a52ff;
+}
+.fa-github:hover {
+  color: #ad5c51;
+}
+.fa-file-alt:hover {
+  color: #00ab6c;
+}
+
+#lightOrDarkButton {
+  border: 0px;
+  background-color: #293c4b;
+  padding: 0px 10px;
+  border-radius: 500px;
+  cursor: pointer;
+}
+
+#lightOrDarkButton:focus {
+  outline: none;
+  border-color: #576ce0;
+  box-shadow: 0 0 10px #576ce0;
+}
